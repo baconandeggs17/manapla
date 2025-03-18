@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: manapla-app
+    env: docker
+    plan: free
+    repo: https://github.com/baconandeggs17/manapla
+    dockerfilePath: Dockerfile
